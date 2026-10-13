@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #141414;
+    border-bottom: 2px solid #292929;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-weight: 800;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8em;
+    color: #00e676;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px rgba(0, 230, 118, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+    nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 400;
+        transition: color 0.3s ease;
+    }
+
+        nav ul li a:hover {
+            color: #00e676;
+        }
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #141414;
+}
+
+.panther-logo {
+    width: 150px;
+    height: 150px;
+    background-image: url('https://cdn-icons-png.freepik.com/256/11090/11090407.png?semt=ais_hybrid');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto 20px auto;
+    filter: drop-shadow(0 0 15px #00e676);
+}
+
+.hero h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3em;
+    color: #ffffff;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+main {
+    flex: 1;
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card {
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    border-left: 5px solid #00e676;
+    transition: transform 0.3s ease;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card h2 {
+        color: #00e676;
+        margin-top: 0;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    .card p {
+        font-size: 1.1em;
+        line-height: 1.6;
+    }
+
+footer {
+    background-color: #141414;
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid #292929;
+    color: #888888;
+    font-size: 0.9em;
+}
