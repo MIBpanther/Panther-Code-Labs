@@ -1,12 +1,14 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #121212;
+    background-image: url('Gemini_Generated_Image_wc6y2xwc6y2xwc6y.jpg');
+    background-size: cover;
+    background-position: center;
     color: #e0e0e0;
 }
 
 header {
-    background-color: #1e1e1e;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 1rem 2rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
@@ -66,7 +68,7 @@ main {
     }
 
 .card {
-    background-color: #1e1e1e;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
